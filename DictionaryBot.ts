@@ -15,7 +15,7 @@ const customDefinitions: customDefinitionsType = {
   asghar:
     "1. Gujju businessman famously know for his 'Tikuji-ni-wadi' jingle. His recent 'You can che ne call me Daddy little dragon' voice note was a chartbuster. People eagerly waiting for his next drop.",
   feature: "1. Tech gujju in Bengaluru.",
-  keiko: "1. Shiro's mom. 2. Wannabe CA.",
+  keiko: "1. Shiro's mom.\n2. Wannabe CA.",
   luna: "1. Person also known as Monu and Chuna.\n2. A lactose intolerant cannibalistic vegan with ADHD and a brand new Pixel 7 that sometimes mayhaps fall prey to online scams.",
   madhura: "1. The one who reacts and replies to age old messages.",
   muskan: "1. World traveller of MSS.",
