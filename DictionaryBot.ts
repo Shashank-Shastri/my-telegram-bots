@@ -9,17 +9,21 @@ type customDefinitionsType = {
 
 const customDefinitions: customDefinitionsType = {
   aditi: "1. Propagator of Pani Puri Sorbet.\n2. Developer from Thane.",
+  aditya: "1. Chee, worst Skribbl/Codenames/Wordbot player.",
   araina: "1. Pretends Thane is part of Mumbai.",
   arpit: "1. Me hota to nahi sehta.\n2. Developer from Lucknow.",
   asghar:
     "1. Gujju businessman famously know for his 'Tikuji-ni-wadi' jingle. His recent 'You can che ne call me Daddy little dragon' voice note was a chartbuster. People eagerly waiting for his next drop.",
   feature: "1. Tech gujju in Bengaluru.",
-  keiko: "1. Shiro's mom.",
-  luna: "1. Person also knows as Monu and Chuna.\n2. A lactose intolerant cannibalistic vegan with ADHD and a brand new Pixel 7 that sometimes mayhaps fall prey to online scams.",
+  keiko: "1. Shiro's mom. 2. Wannabe CA.",
+  luna: "1. Person also known as Monu and Chuna.\n2. A lactose intolerant cannibalistic vegan with ADHD and a brand new Pixel 7 that sometimes mayhaps fall prey to online scams.",
+  madhura: "1. The one who reacts and replies to age old messages.",
+  muskan: "1. World traveller of MSS.",
   orion:
     "1. Onion.\n2. A gender fluid human being who is scared of revealing their name.\n3. Unknown developer from Navi Mumbai.",
+  sahil: "1. CA of MSS.",
   saxi: "1. Someone who searches for offers/discounts even if the value of the item is ₹1.\n2. Doctor from Wadala.",
-  shashank: "1. Creator of this bot.",
+  shashank: "1. Creator of this bot. 2. EV Road tripper.",
   timothee: "1. Master of Puns.",
 };
 
