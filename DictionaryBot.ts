@@ -4,7 +4,7 @@ const { Client } = require("pg");
 
 //Create a new bot
 const bot = new Bot(process.env.dictionary_bot_key || "");
-const authorizedUsers = [742722869];
+const authorizedUsers = process.env.authorized_users?.split(",") || [];
 
 const client = new Client({
   connectionString: process.env.db_string,
@@ -55,7 +55,7 @@ async function getDefinitions(word: string) {
 async function parseCommand(ctx: CommandContext<Context>) {
   if (!ctx.from) return;
   const { id: userId, first_name: name } = ctx.from;
-  if (!authorizedUsers.includes(userId)) {
+  if (!authorizedUsers.includes(String(userId))) {
     await ctx.reply(
       `Sorry ${name}, you are not authorized to add a definition.`
     );
