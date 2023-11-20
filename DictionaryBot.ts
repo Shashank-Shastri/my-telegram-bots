@@ -15,9 +15,11 @@ const customDefinitions: customDefinitionsType = {
     "1. Gujju businessman famously know for his 'Tikuji-ni-wadi' jingle. His recent 'You can che ne call me Daddy little dragon' voice note was a chartbuster. People eagerly waiting for his next drop.",
   feature: "1. Tech gujju in Bengaluru.",
   keiko: "1. Shiro's mom.",
+  luna: "1. Person also knows as Monu and Chuna.\n2. A lactose intolerant cannibalistic vegan with ADHD and a brand new Pixel 7 that sometimes mayhaps fall prey to online scams.",
   orion:
     "1. Onion.\n2. A gender fluid human being who is scared of revealing their name.\n3. Unknown developer from Navi Mumbai.",
   saxi: "1. Someone who searches for offers/discounts even if the value of the item is ₹1.\n2. Doctor from Wadala.",
+  shashank: "1. Creator of this bot.",
   timothee: "1. Master of Puns.",
 };
 
