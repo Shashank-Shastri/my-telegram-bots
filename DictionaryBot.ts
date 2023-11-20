@@ -8,6 +8,7 @@ type customDefinitionsType = {
 };
 
 const customDefinitions: customDefinitionsType = {
+  abby: "1. Also known as Abbyaa.\n2. Gunda of MSS.",
   aditi: "1. Propagator of Pani Puri Sorbet.\n2. Developer from Thane.",
   aditya: "1. Chee, worst Skribbl/Codenames/Wordbot player.",
   araina: "1. Pretends Thane is part of Mumbai.",
