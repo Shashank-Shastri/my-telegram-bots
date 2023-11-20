@@ -82,6 +82,7 @@ bot.command("addDefinition", async (ctx) => {
       [word, definitions]
     );
     await ctx.reply(`Definition for ${word} added.`);
+    return;
   }
   await ctx.reply(`${word} already exists, try updating.`);
 });
@@ -94,6 +95,7 @@ bot.command("updateDefinition", async (ctx) => {
   const { word, definitions, customDefinition } = parsedCommands;
   if (!customDefinition) {
     await ctx.reply(`${word} doesn't exist, please add it first.`);
+    return;
   }
   await client.query(
     "UPDATE custom_definitions SET definitions=$2 WHERE word=$1",
